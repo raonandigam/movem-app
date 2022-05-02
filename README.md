@@ -5,6 +5,7 @@ Android application where we can create crypto wallet, Buy USDC and transfer to 
 ## Pre-requisites
 Android Studio with emulator
 NodeJs version 16.3
+Gradle 7.2
 
 ## Configuration
 Go to App/Services
@@ -16,3 +17,6 @@ npm install
 
 npm run android
 
+## Generate apk file
+go to android folder
+run "./gradelw assembleRelease
